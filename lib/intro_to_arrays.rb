@@ -7,3 +7,7 @@ def array_with_two_elements
   array_with_two_elements = ["a", "b"]
   @my_new_array = array_with_two_elements
 end
+
+def first_element(array)
+  array.index(0)  
+end
